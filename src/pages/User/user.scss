@@ -1,0 +1,100 @@
+@import '@constants/typography.scss';
+@import '@constants/colors.scss';
+@import '@constants/media.scss';
+
+.add-btn {
+    button {
+        font-family: inheri;
+        font-weight: 700;
+        background: #002b5b;
+        border: 0.75px solid #000000;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        width: 100%;
+    }
+}
+
+.add-campaign {
+    span.custom_select__indicator-separator.css-1u9des2-indicatorSeparator {
+        background: transparent;
+    }
+
+    .custom-card {
+        padding: 2rem !important;
+    }
+
+    .publish-btn {
+        height: 45px;
+
+        button {
+            color: #fff;
+            border: unset;
+        }
+    }
+
+    h4 {
+        font-family: inherit;
+        font-size: 24px;
+        font-weight: 600;
+        color: #002b5b;
+        margin-bottom: 2rem;
+    }
+
+    textarea.form-control {
+        border-radius: 8px !important;
+
+        &::placeholder {
+            color: #dadada;
+            font-family: inherit;
+        }
+    }
+
+    .formgroup label {
+        margin-bottom: 0.5rem !important;
+        font-family: inherit !important;
+    }
+
+    .formgroup .custom_select__control {
+        border-radius: 8px;
+
+        &::placeholder {
+            color: #dadada;
+            font-family: inherit;
+        }
+
+        &:hover {
+            border-color: #e4e7e9;
+        }
+    }
+
+    input.form-control {
+        height: 32px !important;
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        font-family: inherit;
+
+        &::placeholder {
+            font-size: 14px !important;
+            font-weight: 400;
+            color: #dadada;
+            font-family: inherit;
+        }
+    }
+
+    .add-detail {
+        background: #e4e7e9;
+        border: 0.74px solid #e4e7e9;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        height: 38px;
+        margin-bottom: 2rem;
+
+        p {
+            color: #191c1f;
+            font-weight: 500;
+            font-size: 14px;
+            font-family: inherit;
+        }
+    }
+}
